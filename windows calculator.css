@@ -1,0 +1,103 @@
+body {
+    background: url(pexels-photo-1025469.jpeg);
+    /* overflow: hidden; */
+}
+
+.menu {
+    height: 3rem;
+    width: 100%;
+    text-align: left;
+    font-size: 2rem;
+    background-color: radial-gradient( grey 3%, rgb(201, 196, 196) 45%, rgb(139, 133, 133) 70%);
+    display: inline-block;
+}
+
+.app-name {
+    line-height: 100%;
+    vertical-align: middle;
+    color: snow;
+    padding-left: 10px;
+}
+
+.close {
+    float: right;
+    background-color: rgba(138, 137, 137, 0.1);
+    height: 100%;
+    border: none;
+    color: white;
+    font-size: inherit;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center
+}
+
+.calculator {
+    border: solid rgb(121, 5, 5);
+    background-image: radial-gradient( grey 3%, rgb(201, 196, 196) 45%, rgb(139, 133, 133) 70%);
+    background-size: 100% 32rem;
+    /* 3 + 19  +  10 */
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.buttons-rows {
+    display: grid;
+    grid-template-columns: repeat(4, 10rem);
+    grid-template-rows: repeat(6, 5rem);
+}
+
+.buttons-rows button {
+    border-width: 1.5px;
+    color: white;
+    font-family: monospace;
+    font-size: 3rem;
+    outline: none;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border-color: rgba(118, 118, 118, 0.5) rgba(133, 133, 132, 0.5);
+}
+
+
+/* button:hover {
+    background-color: green;
+}
+
+button:active {
+    background-color: red;
+} */
+
+.calculator-display {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 19rem;
+    font-weight: bolder;
+    font-size: 5rem;
+    color: white;
+    padding-right: 10px;
+}
+
+.button-black {
+    background-color: black;
+    color: white;
+}
+
+.button-equal {
+    background-color: rgb(121, 9, 9);
+}
+
+.button-top {
+    background-color: rgba(105, 102, 102, 0.1);
+    background-repeat: no-repeat;
+}
+
+.button-grey {
+    background-color: slategrey;
+}
