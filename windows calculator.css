@@ -7,7 +7,7 @@ body {
     height: 3rem;
     width: 100%;
     text-align: left;
-    font-size: 2rem;
+    font-size: 2.1rem;
     background-color: radial-gradient( grey 3%, rgb(201, 196, 196) 45%, rgb(139, 133, 133) 70%);
     display: inline-block;
 }
